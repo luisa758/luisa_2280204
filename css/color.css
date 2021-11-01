@@ -1,0 +1,35 @@
+p.font-42 {
+    font-size: 30px;
+    color: deepskyblue;
+    font-weight: 900;
+}
+span.font-crazy {
+    font-weight: 900;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+    color: magenta;
+}
+span.titulo-lista {
+    font-weight: 900;
+    font-size: 1.2em;
+}
+.purple {
+    color: purple;
+    font-size: 40px;
+    font-weight: 900;
+}
+.color-aviaca {
+    color: rgb(255,0,0);
+    font-weight: 900;
+    font-size: 35px;
+}
+.darkblue {
+    color: #00008B;
+    font-size: 30px;
+    font-weight: 900;
+}
+.color-platzi {
+    color:rgb(112,161,219);
+    font-size: 30px;
+    font-weight: 900;
+}

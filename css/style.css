@@ -1,0 +1,12 @@
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.espaciado-letras {
+    letter-spacing: 2mm;
+}
+.espaciado-palabras {
+    word-spacing: 3rem;
+}
+.espaciado-lineas {
+    line-height: 4em;
+}
