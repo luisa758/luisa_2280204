@@ -7,7 +7,7 @@ function ocultarMenu() {
     navMostrar.classList.toggle("mostrarNav")
 }
 
- $(document).ready(main);
+/* $(document).ready(main);
 var contador =0;
 
 function main() {
@@ -26,4 +26,4 @@ function main() {
             contador=0;
         }
     });
-}
+}*/
