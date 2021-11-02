@@ -1,89 +1,174 @@
- *{
-    margin: 0;
+*{
+    margin:0;
     padding: 0;
-}
-
-.content-page {
-    width: 50px;
-    position: fixed;
-}
-.content-main {
-    margin-left:23%;
-    margin-top: 5%;
-}
-.hamburger-menu {
-    font-size: 2.1em;
-    position: fixed;
-    top: 15px;
-    left: 20px;
-    cursor: pointer;
-    display: block;
-}
-nav {
-    height: 88vh;
-    /* height: calc(100%-60px); */
-    position: fixed;
-    margin-top: 0px;
-    left: -100%;
-    overflow-y: scroll;
-    top: 60px;
-    border-top: 1px solid rosybrown;
-    font-family: cursive;
-    transition: all .4s ease-in-out;
-    background: rgba(169, 169, 169,.8);
-    /* background: rgb(254,253, 151); */
-    /* background: rgb(137, 194, 247); */
-    padding: 10px;
-    width: 20%;
-}
-ul {
-   list-style: none;
-   font-size: 1em;
-   display: block;
-}
-li {
-    padding: 0 10px 0 10px;
-    text-align: left;
-} 
-a.menu-item {
-    padding: 20px;
-    text-decoration: none;
-    color:rgb(255, 255, 255);
-    /* color: rgb(2, 2, 2); */
-    display: block;
-    border-bottom: 1px solid rgb(176, 196, 222);    
-}
-a.menu-item:hover {
-    background: lavender;
-    font-weight: 600;
-    cursor: pointer;
-    color: indigo;
-    /* color: teal; */
-    border-bottom: none;
-    border-radius: 5px;
-    outline: 2px solid lavender;
-} 
-a.menu-item:hover > i {
-    color: black;
-}
-nav.mostrarNav {
-    left: 0;
-}
-nav.mostrarNav ~ .content-main {
-    margin-left: 360px;
-    transition: all .4s ease;
-}
-.fa-bars {
-    margin-right: 15px;
-    color: rgb(116, 255, 243);
-    /* color: rgb(235, 117, 192); */
-    font-size: .9em;
-
-}
-.fas, .far {
-    margin-right: 15px;
-    color: rgb(176, 196, 222. .8);
-    font-size: .9em;
+    }
+    .content-main{
+        margin: 2.2em 2.6em;
+    }
+    .hamburger-menu{
+        font-size: 2.1em;
+        position: fixed;
+        top: 15px;
+        left: 20px;
+        cursor: pointer;
+        display: block;
+    }
+    nav {
+        background: darkcyan;
+        height: calc(100% - 60px);
+        position: fixed;
+        left: -100%;
+        overflow-y: auto;
+        top: 60px;
+        border-top: 1px solid rgb(64, 64, 64. .3);
+        font-family: 'Times New Roman', Times, serif;
+        transition: all .4s ease-in-out;
+        padding-right: 50px;
+    }
+    ul {
+        list-style: none;
+        font-size: 1em;
+        display: block;
+        text-decoration: none;
+    }
+    li {
+        padding: 0 10px 0 10px;
+        text-align: left;
+    }
+    li:hover {
+        background-color: rgb(230, 235, 239);
+        cursor: pointer;
+        width: 150%;
+    }
+    a {
+        text-decoration: none;
+    }
+    a.menu-item{
+        padding: 20px;
+        text-decoration: none;
+        color: rgb(12, 12, 12);
+        display: block;
+        border-bottom:  1px solid  rgb(64, 64, 64. .3);
+        text-decoration: none;
+    }
+    /*a.menu-item:hover{
+        background: rgb(230, 235, 239);
+        font-weight: 600;
+        cursor: pointer;
+        color: rgb(24, 24, 24);
+        border-bottom: none;
+        margin-left: -15px;
+        border-radius: 5px;
+        outline: 2px solid rgb(230, 235, 239);
+    } */
+    a.menu-item:hover>i{
+        color: black;
+    }
+    nav.mostrarNav{
+        left: 0;
+    }
+    nav.mostrarNav ~ .content-main{
+        margin-left: 360px;
+        transition: all .4s ease;
+    }
+    .fa-home {
+        margin-right: 15px;
+        color: rgb(64, 64, 64. .8);
+        font-size: .9em;
+    }
+    .fa-font {
+        margin-right: 15px;
+        color: rgb(64, 64, 64. .8);
+        font-size: .9em;
+    }
+    .fa-palette {
+        margin-right: 15px;
+        color: rgb(64, 64, 64. .8);
+        font-size: .9em;
+    }
+    .fa-list {
+        margin-right: 15px;
+        color: rgb(64, 64, 64. .8);
+        font-size: .9em;
+    }
+    .fa-align-center {
+        margin-right: 15px;
+        color: rgb(64, 64, 64. .8);
+        font-size: .9em;
+    }
+    .fa-border-style {
+        margin-right: 15px;
+        color: rgb(64, 64, 64. .8);
+        font-size: .9em;
+    }
+    .fa-border-style {
+        margin-right: 15px;
+        color: rgb(64, 64, 64. .8);
+        font-size: .9em;
+    }
+    .fa-border-style {
+        margin-right: 15px;
+        color: rgb(64, 64, 64. .8);
+        font-size: .9em;
+    }
+    .fa-home {
+        margin-right: 15px;
+        color: rgb(64, 64, 64. .8);
+        font-size: .9em;
+    }
+    @media (max-width:800px){
+        nav{
+            height: 88vh;
+            padding: 10px;
+            background: rgba(102, 100, 100, 0.8);
+            width: 40%;
+            font-size: 1.1em;
+            border-top: none;
+            position: fixed;
+            top: 62px;
+            overflow-y:scroll;
+            border-top: 1px solid lavender;
+            font-family: cursive;
+            transition: all .4s ease-in-out;
+        }
+        .hamburger-menu {
+            font-size: 2.1em;
+            position: fixed;
+            top: 15px;
+            left: 20px;
+            cursor: pointer;
+            display: block;
+        }
+        .fas, .far{
+            margin-right: 8px;
+        }
+        a.menu-item:hover{
+            background: rgb(230, 235, 239);
+            font-weight: 500;
+            cursor: pointer;
+            color: rgb(14, 248, 53);
+            border-bottom: none;
+        }
+        li{
+            text-align: left;
+        }
+        a.menu-item{
+            color: rgb(0, 0, 0);
+        }
+        nav.mostrarNav ~ .content-main{
+            margin-left: 2em;
+            transition: all .3s ease;
+        }  
+        body {
+            background-image: url("../img/oso.jpg");
+                width: 100%;
+                height: 100vh;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: fixed fixed;
+                background-attachment: fixed;
+        }    
+    }
 }
 body {
        background-image: url("../img/oso.jpg");
@@ -94,63 +179,3 @@ body {
         background-position: fixed;
         background-attachment: fixed;
 }
-@media (max-width:800px){
-    nav{
-        height: 88vh;
-        padding: 10px;
-        background: rgba(102, 100, 100, 0.8);
-        width: 40%;
-        font-size: 1.1em;
-        border-top: none;
-        position: fixed;
-        top: 62px;
-        overflow-y:scroll;
-        border-top: 1px solid lavender;
-        font-family: cursive;
-        transition: all .4s ease-in-out;
-    }
-    .hamburger-menu {
-        font-size: 2.1em;
-        position: fixed;
-        top: 15px;
-        left: 20px;
-        cursor: pointer;
-        display: block;
-    }
-    .fas, .far{
-        margin-right: 8px;
-    }
-    a.menu-item:hover{
-        background: rgb(230, 235, 239);
-        font-weight: 500;
-        cursor: pointer;
-        color: rgb(14, 248, 53);
-        border-bottom: none;
-    }
-    li{
-        text-align: left;
-    }
-    a.menu-item{
-        color: rgb(0, 0, 0);
-    }
-    nav.mostrarNav ~ .content-main{
-        margin-left: 2em;
-        transition: all .3s ease;
-    }  
-    body {
-        background-image: url("../img/oso.jpg");
-            width: 100%;
-            height: 100vh;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: fixed fixed;
-            background-attachment: fixed;
-    }  
-}
-h1 {
-    color: rgb(54, 243, 243);
-}
-p {
-    color: rgb(54, 243, 243);
-}
-
