@@ -25,16 +25,16 @@
 }
 .encabezado {
     margin-top: 50px;
-    background: rgb(255, 0, 0);
+    background: rgb(5, 168, 127);
     grid-area: encabezado;
 }
 .nav-bar {
     margin-top: 50px;
-    background: rgb(59, 201, 206);
+    background: rgb(53, 179, 162);
     grid-area: nav-bar;
 }
 .img-principal {
-    background: rgb(49, 180, 49);
+    background: rgb(46, 168, 142);
     grid-area: img-principal;
 }
 .cards {
@@ -60,7 +60,7 @@
     grid-area: card-6;
 }
 .img-card {
-     background: rgb(221, 218, 26);
+     background: rgb(4, 202, 169);
      max-width: 100%;
 }
 .text-card {
