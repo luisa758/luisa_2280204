@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    background: #3a3d47;
+    background: #000000;
     font-family: verdana;
 }
 .container {
@@ -12,7 +12,7 @@ body {
     margin: 10px auto;
 }
 .superior {
-    background: #1551a1;
+    background: #023d3d;
     overflow: hidden;
 }
 .menu {
@@ -30,7 +30,7 @@ body {
     border: 1px solid white;
 }
 .opciones li a:hover{
-    background: #0d356a;
+    background: #0d6a5b;
 }
 .cuerpo {
     overflow: hidden;
@@ -39,12 +39,13 @@ body {
     float: left;
     width: 370px;
     margin: 10px;
+    text-align: center;
 }
 .subtitulo {
     background: #ffffff;
 }
 h3 {
-    color: rgb(62, 132, 134);
+    color: rgb(7, 112, 103);
     text-align: center;
     padding: 10px;
 }
