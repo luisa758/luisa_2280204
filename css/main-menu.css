@@ -1,108 +1,117 @@
-       * {
+/* * {
     margin: 0;
     padding: 0;
 }
-.content-main {
-    margin: 2.2em 2.6em;
-}
-.hamburger-menu {
-    font-size: 2.1em;
-    position: fixed;
-    top: 15px;
-    left: 20px;
-    cursor: pointer;
-    display: block;
-}
 nav {
-    height: calc(100% - 60px);
-    position: fixed;
-    left: -100%;
-    overflow-y: auto;
-    top: 60px;
-    border-top: 1px solid rgb(64,64,64,.3);
-    font-family: 'Courgette', cursive;
-<<<<<<< HEAD
-    transition: all .4s ease-in-out;
-=======
-    height: 100vh;
-    top: 70px;
-    overflow: scroll;
-    bottom: 40px;
-    left: -100%;
-    margin-top: 70px;
-    z-index: 5;
-    background: aqua;
-    position: ;
->>>>>>> 962003159a74f07119c07d3e20f56706358cb488
+    background-color: rgb(53, 96, 189);
+    font-family: 'Nanum Myeongjo', serif;
 }
 ul {
     list-style: none;
-    font-size: 1.3em;
-    display: block;
-}
-li {
-<<<<<<< HEAD
-    padding: 0 10px 0 10px;
-    text-align: left;
-=======
-    flex-direction: block;
->>>>>>> 962003159a74f07119c07d3e20f56706358cb488
-}
-a.menu.item {
-    padding: 20px;
-    text-decoration: none;
-    color: black;
-    display: block;
-    border-bottom: 1px solid rgb(64,64,64,.3);
-    text-decoration: none;
-} 
-a.menu-item:hover {
-    background: rgb(230,235,239);
-    font-weight: 600;
-    cursor: pointer;
-    color: rgb(24,24,24);
-    border-bottom: none;
-    border-radius: 5px;
-    outline: 2px solid rgb(230,235,239);
-}
-a.menu-item:hover > i {
-    color: black;
-}
-nav.mostrarNav ~ .content-main {
-    margin-left: 360px;
-    transition: all .4s ease;
-}
-.fas, .far {
-    margin-right: 8px;
-}
-a.menu-item:hover {
-    background: blanchedalmond;
-    font-weight: 500;
-    cursor: pointer;
-    color: rgb(24,24,24);
-    border-bottom: none;
-}
-li {
     text-align: center;
+    font-size: 1.3em;
 }
-a.menu-item {
-    color: rgb(12,12,12);
+li {
+    display: inline-block;
+    font-size: 1.3em;
 }
-nav.mostrarNav ~ .content-main {
-    margin-left: 2em;
-    transition: all .4s ease;
+a {
+    text-decoration: none;
+    color: white;
+} */
+ * {
+    margin: 0%;
+    padding: 0%;
 }
-/* roboto-regular - latin */
-@font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/butterfly-kids-v11-latin-regular.eot')
-    src: local('')
-         url('../fonts/butterfly-kids-v11-latin-regular.eot')
-         url('../fonts/butterfly-kids-v11-latin-regular.eot')
+li {
+    padding: 0 10px 0 10px;
+    list-style: none;
+    padding: 20px;
+    font-size: 1.4em;
+    border-top: 1px solid rgb(0, 0, 0);
+    flex-direction: block;
 }
-function mostrarMenu() {
-    var navMostrar = document.getElementById("menu-principal");
-    navMostrar.classList.toggle("mostrarNav");
+ul {
+    height: 100vh;
+    list-style: none;
+    text-align: left;
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+}
+nav {
+    position: fixed;
+    height: 90vh;
+    top: 70px;
+    background-color:rgb(66, 87, 85);
+    width: 290px;
+    overflow-x: auto;
+    left: -100%;
+    z-index: 5;
+}
+body{
+    background-image: url("../img/child-4418259_960_720.webp");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed fixed;
+    background-attachment: fixed;
+}
+.menu-box {
+    position: fixed;
+    top: 0;
+    width: 100px;
+    padding-left: 20px;
+    height: 60px;
+
+}
+#side-header {
+    position: fixed;
+    top :0;
+    width: 220px;
+    height: 100%;
+}
+
+.nav.mostrarNav {
+    left: 0;
+}
+.hamburger-menu {
+    position: fixed;
+    top: 15px;
+    left: 20px;
+    font-size: 2.1em;
+    display: block;
+    cursor: pointer;
+    z-index: 15;
+    color: white;
+}
+.nav-page {
+    grid-area: nav-page;
+}
+.conteint-page {
+    grid-area: content-page;
+}
+li:hover {
+    background-color: rgba(174, 175, 175, 0.8);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+a:hover{
+    background-color: rgb(122, 122, 122);
+    
+}
+.content-main {
+    text-align: center;
+    margin-top: 40px;
+    z-index: 30;
+    color: white;
+}
+p{
+    font-size: 1.5em;
+    color: white;
+}
+nav.mostrarNav {
+    left: 0;
 }
