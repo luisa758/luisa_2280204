@@ -13,8 +13,7 @@ h1 {
 .content_form {
     background-color: rgb(255, 255, 255);
     margin-left: 25%;
-    /* height: 100%; */
-    padding: 20px  30px;
+    padding: 70px  30px;
 }
 ul {
     padding: 30px;
@@ -24,28 +23,27 @@ ul {
     text-decoration: none;
 }
 li {
-     padding: 30px 10px 0 30px;
-     text-align: left;
-     text-decoration: none;
+    padding: 30px 10px 0 30px;
+    text-align: left;
+    text-decoration: none;
 }
 nav{
-    background: rgba(65, 63, 63, 0.329);
+    background: rgba(39, 38, 38, 0.671);
     height: 100%;
     width: 25%;
-
 }
 a {
-    text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: 500;
     font-size: 1.2em;
+    text-decoration: none;
 }
 a:hover {
-    color: rgb(1, 255, 221);
+    color: rgb(65, 212, 176);
 }
 label {
     height: 30px;
-    color: rgb(0, 0, 0);
+    color: #000;
 }
 input {
     height: 40px;
@@ -56,14 +54,13 @@ input {
 @media (max-width: 600px){
     nav{
         padding-top: 30px;
-        background: rgb(0, 0, 0);
+        background: rgb(2, 1, 1);
         height: 100%;
         width: 40%;
     } 
     .content_form {
-        background-color: rgb(1, 156, 149);
+        background-color: rgb(251, 44, 29);
         margin-left: 40%;
-        /* height: 100%; */
         padding: 20px  30px;
     } 
     li {
@@ -82,14 +79,13 @@ input {
 @media (max-width: 1000px){
     nav{
         padding-top: 30px;
-        background: rgb(0, 0, 0);;
+        background: rgb(2, 1, 1);;
         height: 100%;
         width: 35%;
     } 
     .content_form {
-        background-color: rgb(0, 255, 255);
+        background-color: rgb(12, 224, 224);
         margin-left: 35%;
-        /* height: 100%; */
         padding: 20px  30px;
     } 
     li {
