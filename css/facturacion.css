@@ -11,8 +11,18 @@ h1 {
     position: fixed;
 }
 .content_form {
+<<<<<<< HEAD
     background-color: rgb(39, 162, 179);
     margin-left: 23%;
+=======
+<<<<<<< HEAD
+    background-color: rgb(39, 162, 179);
+    margin-left: 23%;
+=======
+    background-color: rgb(255, 255, 255);
+    margin-left: 25%;
+>>>>>>> ad5344f3a9506b7e492e2fe9e55f77143afdbc3d
+>>>>>>> 8e896eb639cfefa4a266d4b66088ea5e86ba9fae
     padding: 70px  30px;
 }
 ul {
@@ -28,7 +38,15 @@ li {
     text-decoration: none;
 }
 nav{
+<<<<<<< HEAD
     background: rgb(0, 0, 0);
+=======
+<<<<<<< HEAD
+    background: rgb(0, 0, 0);
+=======
+    background: rgba(39, 38, 38, 0.671);
+>>>>>>> ad5344f3a9506b7e492e2fe9e55f77143afdbc3d
+>>>>>>> 8e896eb639cfefa4a266d4b66088ea5e86ba9fae
     height: 100%;
     width: 25%;
 }
