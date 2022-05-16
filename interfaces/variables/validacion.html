@@ -8,18 +8,18 @@
     <link rel="stylesheet" href="css/validacion.css">
 </head>
 <body>
-    <h3>Validacion si el usuario ingresa informacion</h3>
-    <form onsubmit="validarInfo('numeroDocumento');">
+    <h3>Validacion si el usuario ingresa informacion</h3><br>
+    
         <fieldset>
             <div class="formulario">
-                <label for="Nombre">Nombre: </label><br>
-                <input type="text" name="Nombre"><br>
-                <label for="Numero_documento">Numero de Documento</label><br>
-                <input type="text" id="numeroDocumento" required=""><br>
-                <input type="submit" value="Enviar">
+                <label for="text">Nombre de Usuario:</label><br>
+                <input id="numeroDocumento" type="text" name="numeroDocumento">
+                <label for="text">Numero de Documento:</label><br>
+                <input id="nombreUsuario" type="text" name="nombreUsuario">
+                <input class="btn" type="submit" value="Enviar" onclick="guardarInfo();">
             </div>
     </fieldset>
-    </form>
+
     <script src="js/script.js"></script>
 </body>
 </html>

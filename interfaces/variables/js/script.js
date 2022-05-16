@@ -1,7 +1,20 @@
-function validarInfo(numeroDocumento) {
-    var texto= document.getElementById(numeroDocumento);
-    if( texto.value === ""){
-        alert("ingrese el numero de documento");
-    }else{alert("se registro con exito");
+"use strict"
+
+function guardarInfo() {
+    let numeroDocumento = document.getElementById("numeroDocumento").ariaValueMax;
+    if(numeroDocumento == "") {
+        alert("Por favor, ingrese el nombre del usuario");
+        return false;
+    }
+    if(document.getElementById("nombreUsuario").value == "") {
+        alert("Por favor, ingrese el nombre del usuario");
+        return false;
+    }
+    alert("Informacion guardada con exito :)");
+    limpiarformulario();
+    return false
 }
+function limpiarformulario() {
+    document.getElementById("numeroDocumento").value = "";
+    document.getElementById("nombreUsuario").value = "";
 }
