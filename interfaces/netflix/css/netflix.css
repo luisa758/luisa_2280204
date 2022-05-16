@@ -22,3 +22,12 @@
 .movie-cinta {
     margin-top: 25px;
 }
+.lorem {
+    text-align: center;
+    color: white;
+    font-size: 100%;
+    margin: 1%;
+}
+label {
+    font-size: 150%;
+}
