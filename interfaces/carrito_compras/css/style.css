@@ -32,6 +32,12 @@
 .info-libro {
     grid-area: infoLibro;
 }
+.icono{
+    font-size: 2em;
+}
+.bme {
+    font-size: 1.2em;
+}
  .contenedor-1 {
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
