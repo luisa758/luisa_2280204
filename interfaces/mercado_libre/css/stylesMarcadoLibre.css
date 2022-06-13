@@ -32,24 +32,32 @@ cursor: pointer;
 }
 .carritoCompra{
     grid-area: carrito;
+    display: flex;
+    align-items: right;
+    margin: 10px auto auto 100px;
+    font-size: 1.6em;
+
 }
 
 /* contenidos de busqueda*/
 .contenedorAbsoluto{
     display: block;
+
 }
 .contenido{
     display: grid;
     padding: 20px;
     box-sizing: border-box;
-    grid-template:  "img    descripcion"25px
-                    "img    precio "    25px
-                    "img    year "      25px
-                    "img    kilometraje"25px
-                    "img    ciudad     "25px
-                    "img    empty     "auto/
-                     6fr    8fr         ;
-    margin-bottom: solid 1px black;
+    grid-template:  "img        descripcion"25px
+                    "img        precio "    25px
+                    "img        year "      25px
+                    "img        kilometraje"25px
+                    "img        ciudad     "25px
+                    "img        empty     "auto
+                    "separador  separador"10px/
+                     6fr        8fr         ;
+  
+    
 }
 .img{
     width: 100%;
@@ -76,4 +84,9 @@ cursor: pointer;
     grid-area: ciudad;
     margin-left: 20px;
 
+}
+.separador{
+    grid-area: separador;
+    /*margin-left: 20px;*/
+    border-bottom: solid 1px black; 
 }

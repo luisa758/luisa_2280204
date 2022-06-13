@@ -65,6 +65,10 @@ function Busqueda(car){
     city.appendChild(textcity);
     city.setAttribute("class","ciudad");
     contimg.appendChild(city);
+    
+    let separador=document.createElement("div");
+    contimg.appendChild(separador);
+    separador.setAttribute("class","separador");
 
 }
 
